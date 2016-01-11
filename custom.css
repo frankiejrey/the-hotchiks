@@ -1,5 +1,7 @@
 body {
   font-family: 'Lato', sans-serif;
+  line-height: 22px;
+  letter-spacing: .5px;
   background: url(img/bg-wrapper.jpg);
   background-repeat: repeat;
   background-attachment: fixed;
@@ -129,6 +131,13 @@ h4 {
   font-size: 14px;
 }
 
+@media(min-width: 768px) {
+  .bio {
+    margin: auto;
+    width: 960px;
+  }
+}
+  
 footer {
   padding-top: 50px;
   padding-bottom: 10px;
@@ -136,6 +145,11 @@ footer {
   letter-spacing: 2px;
 }
 
+.jumbotron {
+  background: #ffffff;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
 
 @media (min-width: 768px) {
     .navbar .navbar-nav {
