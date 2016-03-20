@@ -6,14 +6,26 @@ body {
 }
 
 @media (min-width: 768px) {
-  .body-bg {
-    background: url(img/main-pic.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 10% 10%; 
-    display: block;
-    background-size: 100%;
-  }
+  /*.body-bg {*/
+    /*background: url(img/main-pic.jpg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-position: 10% 10%;*/
+    /*display: block;*/
+    /*background-size: 100%;*/
+  /*}*/
+}
+
+.parallax-window {
+    min-height: 400px;
+    min-height: 100%;
+    background: transparent;
+    position:fixed !important;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
 }
 
 /*h1, h2, h3 {
@@ -81,7 +93,7 @@ p {
 }
 
 /* NAVBAR CONTROL */
-.navbar-default { 
+.navbar-default {
   background: rgba(255, 255, 255, .0);
   border-bottom: none;
   box-shadow: none;
@@ -108,7 +120,7 @@ p {
 
 @media(min-width:768px) {
   .container-margin {
-    margin-top: 600px;  
+    margin-top: 600px;
   }
 }
 
@@ -119,7 +131,7 @@ p {
 }
 
 .font3 {
-  font-family: 'Permanent Marker', cursive;  
+  font-family: 'Permanent Marker', cursive;
   letter-spacing: 2px;
   color: #333333;
 }
@@ -155,16 +167,16 @@ p {
 @media(min-width:768px) {
   .margin-top {
     margin-top: 0;
-  } 
+  }
 }
 
 @media(min-width:768px) {
-  .video { 
+  .video {
       width: 945px;
-      height: 531px;  
+      height: 531px;
   }
 }
-  
+
 .widget-title {
   font-family: 'Lato', sans-serif;
   font-size: 14px;
@@ -290,13 +302,13 @@ footer {
   padding-bottom: 0;
 }
 
-.bio-header-img {
-  height: 420px;
-  background-image: url(img/bio-header.jpg);
-  -webkit-box-shadow: inset 0px 0px 20px 0px rgba(51,51,51,1);
-  -moz-box-shadow: inset 0px 0px 20px 0px rgba(51,51,51,1);
-  box-shadow: inset 0px 0px 30px 0px rgba(51,51,51,1);
-}
+/*.bio-header-img {*/
+  /*height: 420px;*/
+  /*background-image: url(img/bio-header.jpg);*/
+  /*-webkit-box-shadow: inset 0px 0px 20px 0px rgba(51,51,51,1);*/
+  /*-moz-box-shadow: inset 0px 0px 20px 0px rgba(51,51,51,1);*/
+  /*box-shadow: inset 0px 0px 30px 0px rgba(51,51,51,1);*/
+/*}*/
 
 .cisco-show-img {
   height: 420px;
@@ -320,9 +332,9 @@ PHOTO MOSAIC CSS
   -o-transition: 0.50s;
   transition: 0.50s;
 }
-.opacity85{ 
-  opacity: 0.85; 
-  filter: alpha(opacity=85); 
+.opacity85{
+  opacity: 0.85;
+  filter: alpha(opacity=85);
 }
 
 /*.module { max-width: 500px; margin:auto; }*/
@@ -362,7 +374,7 @@ PHOTO MOSAIC CSS
 .module .title {
   display: inline-block;
   padding: 5px;
-  text-transform:uppercase;  
+  text-transform:uppercase;
 }
 .module .desc {
   display: block;
